@@ -10,7 +10,7 @@ int main(void)
 	int i = '0';
 	int j = '0';
 	int k = '0';
-	
+
 	for (k = '0'; k <= '9'; k++)
 	{
 		for (j = '0'; j <= '9'; j++)
@@ -18,7 +18,7 @@ int main(void)
 			for (i = '0'; i <= '9'; i++)
 			{
 				if (!((i == j) || (j == k) || (j > i) || (k > j)))
-                        	{
+				{
 					putchar(k);
 					putchar(j);
 					putchar(i);
@@ -30,7 +30,7 @@ int main(void)
 				}
 			}
 		}
-        }
-        putchar ('\n');
-        return (0);
+	}
+	putchar ('\n');
+	return (0);
 }
