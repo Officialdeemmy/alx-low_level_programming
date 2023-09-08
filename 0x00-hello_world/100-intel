@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s mans=intel $CFIle
+gcc -s -masm=intel $CFIlE
