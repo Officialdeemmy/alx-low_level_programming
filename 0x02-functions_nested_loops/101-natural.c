@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - main fuction to sum
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
 	int sum = 0, i;
@@ -9,6 +15,6 @@ int main(void)
 		if (i % 3 == 0 || i % 5 == 0)
 			sum += i;
 	}
-
 	printf("%d\n", sum);
+	return (0);
 }
