@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * simple_print_buffer - copies memory area
+ * _memcpy - copies memory area
  * @dest: destination
  * @src: source
  * @n: n bystes to copy
