@@ -2,7 +2,7 @@
 
 /**
  * free_grid - free memory of previous array
- * 2grid: pointer to the array
+ * @grid: pointer to the array
  * @height: number of rows
  */
 
