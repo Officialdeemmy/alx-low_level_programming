@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
 	if (cents < 0)
 		printf("%d\n", 0);
-	else	
+	else
 	{
 		while (cents > 0)
 		{
