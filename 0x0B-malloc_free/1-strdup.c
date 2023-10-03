@@ -3,7 +3,7 @@
 /**
  * _strdup - copies string to new space
  * @str: string to copy
- * Retutn: pointer to new array
+ * Return: pointer to new array
  */
 
 char *_strdup(char *str)
